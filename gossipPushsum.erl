@@ -14,7 +14,7 @@ main(Nodes, Topology, Algorithm) ->
     end,
 
     io:format("Number of Nodes to be used : ~p~n", [NumNodes]),
-    io:format("Select the topology to be used and write your response: ~n 1. Line ~n 2. Full ~n 3. Random 2D ~n 4. Imperfect 3D ~p~n", [Topology]),
+    io:format("The topology to be used: ~p~n", [Topology]),
     io:format("Algorithm followed: ~p~n", [Algorithm]),
 
     if Algorithm == gossip ->
